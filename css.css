@@ -1,0 +1,27 @@
+html{
+    background: url(kerja.jpg);
+    background-position: 100px 1px;
+    background-size: 400px 200px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+.title{
+    color: white;
+    font-style: italic;
+}
+div > h6{
+    font-size: 20px;
+    margin: 2px ;
+}
+.form{
+    background-color: antiquewhite;
+    border: 5px solid gray;
+    margin: 50px;
+}
+p::first-line{
+        color:blue;
+}
+.button{
+    font-style: inherit;
+    font-size: medium;
+}
