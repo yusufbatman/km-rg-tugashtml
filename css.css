@@ -1,11 +1,12 @@
 html{
     background: url(kerja.jpg);
+}
+.title{
+    background: url(kerja.jpg);
     background-position: 100px 1px;
     background-size: 400px 200px;
     background-repeat: repeat-x;
     background-attachment: fixed;
-}
-.title{
     color: white;
     font-style: italic;
 }
@@ -16,12 +17,16 @@ div > h6{
 .form{
     background-color: antiquewhite;
     border: 5px solid gray;
-    margin: 50px;
+    margin: 10px;
 }
-p::first-line{
-        color:blue;
+.note{
+    background-color: yellow;
+    font-style: italic;
 }
-.button{
-    font-style: inherit;
-    font-size: medium;
+.email{
+    background-color: bisque;
+    margin: auto;
+}
+.work{
+    background-color: bisque;
 }
